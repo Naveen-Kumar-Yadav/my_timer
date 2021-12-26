@@ -1,0 +1,48 @@
+.count{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vhmin;
+    height: 50vh;
+    background-color: #FFC840;
+    text-align: center;
+    padding: 2px;
+}
+
+.countdown-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+
+.inputfield{
+    width: 60px;
+    height: 40px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.button{
+    width: 90px;
+    height: 60px;
+    border-color: #00365C;
+    background-color: #00365C ;
+    color: white;
+    font-size: 25px;
+}
